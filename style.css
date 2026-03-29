@@ -1,5 +1,4 @@
-  <style>
-    * {
+  * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -1475,4 +1474,3 @@
       .chart-container  { height: 180px; }
       .stats-grid       { grid-template-columns: repeat(4, 1fr); }
     }
-  </style>
