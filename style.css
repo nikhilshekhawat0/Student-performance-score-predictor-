@@ -1,8 +1,9 @@
+
   * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
     body {
       font-family: 'Poppins', sans-serif;
@@ -16,7 +17,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background: linear-gradient(135deg, #4361ee, #7209b7);
+      background: linear-gradient(135deg, #a32121, #000000);
     }
 
     .login-box {
@@ -36,7 +37,7 @@
     .login-box h2 {
       font-size: 22px;
       font-weight: 700;
-      color: #4361ee;
+      color: #000000;
       margin-bottom: 4px;
     }
 
@@ -1468,9 +1469,9 @@
       .role-btn         { font-size: 10px; padding: 6px 2px; }
     }
 
-    /* ======= TALL PHONE LANDSCAPE ======= */
-    @media (max-width: 900px) and (orientation: landscape) {
-      .main-content     { padding: 12px 16px 70px; }
-      .chart-container  { height: 180px; }
-      .stats-grid       { grid-template-columns: repeat(4, 1fr); }
-    }
+                /* ======= TALL PHONE LANDSCAPE ======= */
+                @media (max-width: 900px) and (orientation: landscape) {
+                  .main-content     { padding: 12px 16px 70px; }
+                  .chart-container  { height: 180px; }
+                  .stats-grid       { grid-template-columns: repeat(4, 1fr); }
+                }
