@@ -15,7 +15,7 @@
     { id:9,  name:"Arjun Tiwari",     roll:"2501730009", email:"arjun@krmu.edu",    att:72, asgn:68, int:30, study:3, sub:75 },
     { id:10, name:"Meera Kapoor",     roll:"2501730010", email:"meera@krmu.edu",    att:95, asgn:94, int:48, study:7, sub:99 },
     { id:11, name:"Shubham Sharma",   roll:"2501730396", email:"shubham@krmu.edu",  att:82, asgn:78, int:36, study:4, sub:85 },
-    { id:12, name:"Nikhil Shekhawat", roll:"2501730370", email:"nikhil@krmu.edu",   att:68, asgn:60, int:27, study:2, sub:65 },
+    { id:12, name:"Nikhil Shekhawat", roll:"2501730370", email:"nikhil@krmu.edu",   att:99, asgn:99, int:99, study:7, sub:99 },
     { id:13, name:"Pawan Chauhan",    roll:"2501730411", email:"pawan@krmu.edu",    att:50, asgn:42, int:19, study:1, sub:48 },
     { id:14, name:"Rohan Chauhan",    roll:"2501730429", email:"rohan@krmu.edu",    att:76, asgn:72, int:33, study:3, sub:78 },
     { id:15, name:"Vinayak Singh",    roll:"2501730491", email:"vinayak@krmu.edu",  att:84, asgn:80, int:37, study:4, sub:88 },
