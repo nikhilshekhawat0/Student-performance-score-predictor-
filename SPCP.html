@@ -15,23 +15,23 @@
   <div class="login-box">
 
     <div class="logo-icon">🎓</div>
-    <h2>EduTrack</h2>
+    <h2>EduTracks</h2>
     <p>Student Performance Prediction System<br>K.R. Mangalam University</p>
 
     <div class="role-select">
-      <button class="role-btn active" onclick="pickRole('teacher', this)">👩‍🏫 Teacher</button>
+      <button class="role-btn active" onclick="pickRole('teacher', this)">👩‍🏫 Faculty</button>
       <button class="role-btn" onclick="pickRole('admin', this)">🛡️ Admin</button>
       <button class="role-btn" onclick="pickRole('student', this)">🎒 Student</button>
     </div>
 
     <div class="input-group">
       <label>Email / ID</label>
-      <input type="text" id="login-email" value="teacher@krmu.edu" placeholder="your@email.com">
+      <input type="text" id="login-email" value="teacher@krmu.edu" placeholder="25017**@krmu.edu.in">
     </div>
 
     <div class="input-group">
       <label>Password</label>
-      <input type="password" id="login-pass" value="password" placeholder="••••••••">
+      <input type="password" id="login-pass" value="password" placeholder="">
     </div>
 
     <div class="error-msg" id="login-error">❌ Wrong password. Please try again.</div>
@@ -53,7 +53,7 @@
       <button class="hamburger" id="hamburger-btn" onclick="toggleSidebar()" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
-      <span>🎓</span> EduTrack
+      <span>🎓</span> EduTracks
     </div>
 
     <div class="navbar-links">
@@ -67,8 +67,8 @@
 
     <div class="navbar-right">
       <div class="user-info">
-        <div class="user-avatar" id="user-avatar">AS</div>
-        <span class="user-name-text" id="user-name">Aryan Sharma</span>
+        <div class="user-avatar" id="user-avatar">RH</div>
+        <span class="user-name-text" id="user-name">ROHAN</span>
       </div>
       <button class="logout-link" onclick="doLogout()">Logout</button>
     </div>
@@ -125,11 +125,11 @@
         <div class="page-top">
           <div>
             <div class="page-title">Dashboard</div>
-            <div class="page-subtitle">Class overview — January 2026, Section F (AI &amp; ML)</div>
+            <div class="page-subtitle">Class overview — January 2026, Section F (AI & ML)</div>
           </div>
           <div style="display:flex; gap:10px">
             <button class="btn-secondary" onclick="toast('Report generated!', 'success')">📥 Export Report</button>
-            <button class="btn-primary" onclick="openAddModal()">+ Add Student</button>
+            <button class="btn-primary" onclick="openAddModal()">Add Student</button>
           </div>
         </div>
 
@@ -203,7 +203,7 @@
         <div class="card">
           <div class="table-controls">
             <div class="search-wrap">
-              <input class="search-input" id="search-box" placeholder="Search by name or roll number..." oninput="filterTable()">
+              <input class="search-input" id="search-box" placeholder="Search by name or roll number" oninput="filterTable()">
             </div>
             <select class="filter-dropdown" id="filter-cat" onchange="filterTable()">
               <option value="">All Categories</option>
@@ -225,7 +225,7 @@
                   <th>Roll No.</th>
                   <th>Attendance</th>
                   <th>Assignments</th>
-                  <th>Internal</th>
+                  <th>Internals</th>
                   <th>Score</th>
                   <th>Status</th>
                   <th>Actions</th>
@@ -257,11 +257,11 @@
             <div class="form-grid" style="margin-bottom:14px">
               <div class="form-group">
                 <label>Student Name</label>
-                <input type="text" id="p-name" placeholder="Full name">
+                <input type="text" id="p-name" placeholder="Full NAME of student">
               </div>
               <div class="form-group">
                 <label>Roll Number</label>
-                <input type="text" id="p-roll" placeholder="e.g. 2501730001">
+                <input type="text" id="p-roll" placeholder="e.g. 2501730XXX">
               </div>
             </div>
 
